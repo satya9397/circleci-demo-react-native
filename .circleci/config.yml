@@ -198,5 +198,7 @@ workflows:
           filters:
             branches:
               only: master
+            tags:
+              only: /^V.*/
           # requires:
           #   - node
