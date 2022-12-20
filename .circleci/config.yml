@@ -198,5 +198,7 @@ workflows:
           filters:
             tags:
               only: /^V.*/
+            branches:
+              ignore: /.*/
           # requires:
           #   - node
