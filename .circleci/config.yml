@@ -196,8 +196,6 @@ workflows:
       - macos-build:
           ENV: 'prod'
           filters:
-            branches:
-              only: master
             tags:
               only: /^V.*/
           # requires:
